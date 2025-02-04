@@ -1,0 +1,12 @@
+[core]
+    editor = nvim
+[init]
+    defaultBranch = main
+[user]
+    name = kvitee
+    email = kvitee41@gmail.com
+    signingkey = 0xcd7a2e18f84492d0!
+[commit]
+    gpgsign = true
+[tag]
+    forceSignAnnotated = true
