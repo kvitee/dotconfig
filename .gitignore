@@ -1,0 +1,8 @@
+# Ignore everything in repo root.
+/*
+
+# Include this .gitignore
+!/.gitignore
+
+# Tracked directories
+!/git/
