@@ -7,3 +7,4 @@
 # Tracked directories
 !/git/
 !/gitmux/
+!/tmux/
