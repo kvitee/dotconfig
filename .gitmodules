@@ -1,3 +1,8 @@
 [submodule "nvim"]
 	path = nvim
 	url = https://github.com/kvitee/nvim-config
+	shallow = true
+[submodule "alacritty/themes"]
+	path = alacritty/themes
+	url = https://github.com/alacritty/alacritty-theme
+	shallow = true

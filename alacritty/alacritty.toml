@@ -1,0 +1,22 @@
+[general]
+import = [
+  "~/.config/alacritty/fonts/jetbrains-mono-nf.toml",
+  "~/.config/alacritty/themes/themes/ayu_dark.toml",
+  #"~/.config/alacritty/themes/themes/gruvbox_material_hard_dark.toml",
+  #"~/.config/alacritty/themes/themes/kanagawa_dragon.toml",
+  #"~/.config/alacritty/themes/themes/meliora.toml",
+  #"~/.config/alacritty/themes/themes/remedy_dark.toml",
+  #"~/.config/alacritty/themes/themes/terafox.toml",
+  #"~/.config/alacritty/themes/themes/zenburn.toml",
+]
+
+[terminal.shell]
+program = "tmux"
+args = ["new", "-ADs", "\uf46d home"]
+
+[window]
+dimensions = { columns = 96, lines = 32 }
+padding = { x = 5, y = 5 }
+opacity = 0.8
+decorations_theme_variant = "Dark"
+decorations = "None"
