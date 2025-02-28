@@ -1,0 +1,14 @@
+tmux:
+  symbols:
+    branch: " "
+    ahead: " "
+    behind: " "
+    staged: " "
+    modified: " "
+    untracked: " "
+    clean: " "
+
+  layout: [ branch, remote, " | ", flags ]
+
+  options:
+    divergence_space: true
