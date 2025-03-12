@@ -6,6 +6,7 @@
 
 # Tracked directories
 !/zsh/
+!/omz/
 !/git/
 !/gitmux/
 !/tmux/
