@@ -5,6 +5,7 @@
 !/.gitignore
 
 # Tracked directories
+!/zsh/
 !/git/
 !/gitmux/
 !/tmux/
