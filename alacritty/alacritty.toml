@@ -20,3 +20,13 @@ padding = { x = 5, y = 5 }
 opacity = 0.8
 decorations_theme_variant = "Dark"
 decorations = "None"
+
+[[keyboard.bindings]]
+chars = "\u001B[13;2u"
+key = "Return"
+mods = "Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[13;5u"
+key = "Return"
+mods = "Control"
