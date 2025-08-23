@@ -8,7 +8,7 @@ export ZSH="${XDG_DATA_HOME:-$HOME/.local/share}/omz"
 export HISTFILE="${XDG_STATE_HOME:-$HOME/.local/state}/zsh/history"
 
 # Oh-My-Zsh theme
-ZSH_THEME="kvbox"
+ZSH_THEME="fino"
 
 # Oh-My-Zsh cache directory
 ZSH_CACHE_DIR="${XDG_CACHE_HOME:-$HOME/.cache}/omz"
