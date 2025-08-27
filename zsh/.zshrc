@@ -20,9 +20,6 @@ ZSH_COMPDUMP="$ZSH_CACHE_DIR/.zcompdump"
 # Disable auto-setting terminal title
 DISABLE_AUTO_TITLE="true"
 
-# Disable coloring of ls output
-DISABLE_LS_COLORS="true"
-
 # Custom path for fzf binary
 FZF_PATH="${XDG_DATA_HOME:-$HOME/.local/share}/fzf"
 
