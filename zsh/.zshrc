@@ -10,8 +10,9 @@ export HISTFILE="${XDG_STATE_HOME:-$HOME/.local/state}/zsh/history"
 # Oh-My-Zsh theme
 ZSH_THEME="fino"
 
-# Oh-My-Zsh cache directory
+# Set Oh-My-Zsh cache directory and ensure it exists
 ZSH_CACHE_DIR="${XDG_CACHE_HOME:-$HOME/.cache}/omz"
+mkdir -p $ZSH_CACHE_DIR
 
 # Complecion cache file (.zcompdump)
 ZSH_COMPDUMP="$ZSH_CACHE_DIR/.zcompdump"
