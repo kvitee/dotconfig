@@ -45,6 +45,3 @@ plugins=(
 
 # Run Oh-My-Zsh
 source $ZSH/oh-my-zsh.sh
-
-# Default editor
-export EDITOR="$(command -v vim)"
