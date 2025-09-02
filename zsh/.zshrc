@@ -1,14 +1,17 @@
-# Change GnuPG home directory
+# GnuPG home directory
 export GNUPGHOME="${XDG_CONFIG_HOME:-$HOME/.config}/gnupg"
 
 # Node Version Manager (NVM) directory
 export NVM_DIR="${XDG_DATA_HOME:-$HOME/.local/share}/nvm"
 
+# Pass GPG options
+export PASSWORD_STORE_GPG_OPTS="--armor --no-throw-keyids"
+
 # Path to Oh-My-Zsh installation
 export ZSH="${XDG_DATA_HOME:-$HOME/.local/share}/omz"
 
 # History file
-export HISTFILE="${XDG_STATE_HOME:-$HOME/.local/state}/zsh/history"
+HISTFILE="${XDG_STATE_HOME:-$HOME/.local/state}/zsh/history"
 
 # Oh-My-Zsh theme
 ZSH_THEME="fino"
@@ -45,6 +48,3 @@ source $ZSH/oh-my-zsh.sh
 
 # Default editor
 export EDITOR="$(command -v vim)"
-
-# Pass GPG options
-export PASSWORD_STORE_GPG_OPTS="--armor --no-throw-keyids"
