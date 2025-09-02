@@ -1,6 +1,9 @@
 # Change GnuPG home directory
 export GNUPGHOME="${XDG_CONFIG_HOME:-$HOME/.config}/gnupg"
 
+# Node Version Manager (NVM) directory
+export NVM_DIR="${XDG_DATA_HOME:-$HOME/.local/share}/nvm"
+
 # Path to Oh-My-Zsh installation
 export ZSH="${XDG_DATA_HOME:-$HOME/.local/share}/omz"
 
@@ -26,11 +29,15 @@ FZF_PATH="${XDG_DATA_HOME:-$HOME/.local/share}/fzf"
 # Zsh custom directory
 ZSH_CUSTOM="${XDG_CONFIG_HOME:-$HOME/.config}/omz"
 
+# Enable autoloading NVM
+zstyle ":omz:plugins:nvm" lazy yes
+
 # Plugins list
 plugins=(
   gpg-agent
   zsh-syntax-highlighting
   fzf-zsh-plugin
+  nvm
 )
 
 # Run Oh-My-Zsh
@@ -41,10 +48,3 @@ export EDITOR="$(command -v vim)"
 
 # Pass GPG options
 export PASSWORD_STORE_GPG_OPTS="--armor --no-throw-keyids"
-
-# Node Version Manager (NVM) directory
-export NVM_DIR="${XDG_DATA_HOME:-$HOME/.local/share}/nvm"
-
-# Setup NVM
-[ -s "$NVM_DIR/nvm.sh" ] && source "$NVM_DIR/nvm.sh"
-[ -s "$NVM_DIR/bash_completion" ] && source "$NVM_DIR/bash_completion"
